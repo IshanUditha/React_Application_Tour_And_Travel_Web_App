@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar-item">
-            <h1 className="navbar-logo"><i>Tour&Travel</i></h1>
+            <h1 className="navbar-logo"><i>Tour & Travel</i></h1>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={state.clicked ? "fa-solid fa-xmark" :"fa-solid fa-bars"}></i>
             </div>
